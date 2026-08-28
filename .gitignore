@@ -1,0 +1,18 @@
+# Build
+target/
+bin/
+*.class
+*.jar
+!swing2swt.jar
+
+# JVM crash logs
+hs_err_pid*.log
+*.log
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

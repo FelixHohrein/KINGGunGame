@@ -1,0 +1,11 @@
+message:
+  DE:
+    NO_PERMISSION: '§4Fehler! §7 Du hast keine Berechtigung fuer diesen Befehl!'
+    WRONG_ARGS: '§4Fehler! §7 Überpruefe deine Argumente.'
+    WRONG_SYNTAX: '§4Fehler! §7 Diesen Befehl gibt es nicht.'
+    NO_INTEGER: '§4Fehler! §7 Deine eingegebene Zahl ist keine Zahl.'
+  EN:
+    NO_PERMISSION: '§4Error! §7 You dont have permission to perform this action!'
+    WRONG_ARGS: '§4Error! §7 Check your arguments.'
+    WRONG_SYNTAX: '§4Error! §7 Command not found.'
+    NO_INTEGER: '§4Error! §7 The number you entered is not a number.'

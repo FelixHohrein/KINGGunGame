@@ -1,0 +1,64 @@
+main: de.payne.gungame.GunGame
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+load: POSTWORLD
+softdepend: 
+   - Multiverse-Core
+   - HolographicDisplays
+author: Felix Payne
+api-version: 1.16
+commands:
+  setlanguage:
+   description: change your language
+   aliases:
+    - language
+  forcemap:
+   description: forcemap command
+  vote:
+   description: vote for a map while voting
+  help:
+   description: help command
+   aliases:
+   - hilfe
+   - h
+  leave:
+   description: leave the gungame
+   aliases:
+   - l
+   - verlassen
+  registermap:
+   description: register a new map
+  deletemap:
+   description: deletes an existing map
+  setlobby:
+   description: sets the lobbyspawn
+  adminmenu:
+   description: menu to use as admin
+   aliases:
+   - admin
+  rank:
+   description: shows the rank of an player
+   aliases:
+   - stats
+  createranking:
+   description: creates the ranking base
+  createlowerranking:
+   description: creates the ranking for pos 4-6
+  build:
+   description: allow build on some maps
+  setbufflocation:
+   description: sets a bufflocation location
+  setshop:
+   description: sets the shop location
+  kopfgeld:
+   description: kopfgeld
+  team:
+   description: creates a team if allowed
+permissions:
+  gungame.admin.signwrite:
+   description: erlaubt das erstellen von game join signs
+  gungame.user.signclick:
+   description: erlaube das beitreiten des gungames ueber schild
+  gungame.admin.help:
+   description: erlaubt adminhelp

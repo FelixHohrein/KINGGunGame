@@ -1,0 +1,27 @@
+##----------------------#----DATABASE-------##-------------------
+database:
+  # type false if you dont want to use a database
+  connectionAllowed: false
+  # type your database information
+  host: localhost
+  port: 3306
+  database: test
+  username: test
+  password: 1234
+#--------------------------GAMESETTINGS--------------------------
+game:
+  prefix: '&8[&3GunGame&8]&f '
+  points:
+    #die Punkte, welche dem killer nach einem kill hinzugefügt werden.
+    add: 100
+    #die Punkte, welche dem getöteten spieler abgezogen werden
+    remove: 50
+  vote:
+    #in Sekunden
+    voteTime: 30
+    #default true, wenn false gilt der delay für alle spieler
+    voteDelayPerPlayer: true
+    #in Sekunden
+    voteDelay: 600
+    # wenn innerhalb dieser Zeit kein Votemap Verfahren gestartet wurde wird es das automatisch.
+    voteAutoTaskTime: 900
